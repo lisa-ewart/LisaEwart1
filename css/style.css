@@ -1,0 +1,275 @@
+
+/*body and main page css rules*/
+body{
+	background-color:grey;
+}
+a{
+	text-decoration:none;
+	color:orange;
+}
+
+.main{
+	font-family: Helvetica Neue;
+	font-weight:lighter;
+	max-width:900px;
+	height:700px;
+	margin: 0 auto;
+	font-weight:lighter;
+	background: grey;
+	padding:0px;
+	position:relative;
+	z-index:1;
+
+}
+
+.bodydiv {
+  position:absolute;
+  margin-left: 0 auto;
+  width: 100%;
+  height: auto;
+  padding-bottom:20px;
+  background-color: grey;
+  z-index:2;
+}
+.logo{
+	width:200px;
+	height:auto;
+	margin-top:0;
+	z-index:3;
+	color:white;
+	float:right;
+	margin-right:30px;
+}
+
+.logo h1 {
+	font-weight:lighter;
+}
+/*top navigation menu, links, list items, hover*/
+.nav {
+	margin-left:57px;
+}
+.nav ul {
+  list-style: none;
+  background: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  position:fixed;
+}
+.nav li {
+  font-family: Helvetica Neue;
+  border-bottom: 1px solid #888;
+    width: 120px;
+    border-bottom: none;
+    height: 30px;
+    line-height: 30px;
+    font-size: 1.4em;
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+}
+ 
+.nav a:hover {
+  background-color: #C8CDDA;
+}
+ 
+.nav a.active {
+  background-color: #fff;
+  color: #C8CDDA;
+  cursor: default;
+}  
+  .nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
+
+/*social media link menu, fixed*/
+
+.menudiv {
+  position: fixed;
+  width: 7%;
+  height:300px;
+  margin-top:200px; 
+  z-index:3;
+}
+.menudiv img{
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:30px;
+}
+.menudiv img:hover{
+	-webkit-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+  -moz-box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+  box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+}
+
+/*center div container*/
+
+.centerdivhome{
+	
+	margin: 0 auto;
+	margin-top:50px;
+	margin-bottom:100px;
+	width: 90%;
+	padding-left:25px;
+	background:grey;
+
+	
+}
+
+/* top layer text div*/
+
+.centerdivhometext{
+	
+	margin: 0 auto;
+	margin-top:-300px;
+	margin-bottom:200px;
+	width: 50%;
+	padding-left:125px;
+	z-index:2;
+	color:white;
+	text-align:center;
+}
+.centerdivhometext a {
+	color:white;
+	text-decoration:none;
+}
+.centerdivhometext h1{
+font-weight: lighter;
+
+}
+
+
+.centerdivhome p{
+	color:white;
+	text-align:center;
+}
+.centerdivhome a{
+	color:white;
+	text-decoration:none;
+}
+
+
+/*news.html css rules*/
+
+/* Art news column*/
+.divleft{
+	margin-left:6%;
+	margin-top:50px;
+	width:44%;
+	height:550px;
+	border:1px solid white;
+	background-color:grey;
+	float:left;
+	text-align:center;
+	overflow:scroll;
+	padding:30px;
+	color:white;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.divleft p{
+	text-align: right;
+}
+
+.imgleft {
+	float:left;
+	margin-right:15px;
+}
+.imgright {
+	float:right;
+	margin-left:15px;
+}
+
+/* Tech news column*/
+.divright{
+	width:44%;
+	margin-top:50px;
+	height:550px;
+	margin-left: 50%;
+	background-color:grey;
+	color:white;
+	border:1px solid white;
+	text-align:center;
+	overflow:scroll;
+	padding:30px;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.divright p{
+	text-align:left;
+}
+
+.centerdiv{
+	
+	margin-top:50px;
+	margin-left:50px;
+	width: 90%;
+	padding-left:5px;
+	color:white;
+	background-color:none;
+}
+
+/*Gallery column*/
+.resources{
+	color:#fff;
+	text-align:center;
+	background:none;
+	font-weight:lighter;
+}
+.gallerycol{
+	width:100%;
+	height:70px;
+	background-color:#fff;
+	float:left;
+	margin:20px;
+	padding:10px;
+}
+.gallerycol h2{
+	text-align:center;
+	color:orange;
+}
+.gallerycol h2:hover{
+	color:green;
+}
+.gallerycol p{
+	text-align:center;
+	color:#38610B;
+	margin-top:-10px;
+}
+.gallerycol a{
+	color:orange;
+	text-decoration:none;
+}
+
+.gallerycol:hover{
+	background-color:#ccc;
+
+}
+
+
+@media only screen and (min-width: 400px) {
+
+}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
